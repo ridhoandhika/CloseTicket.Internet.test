@@ -1,0 +1,28 @@
+.btn-sm {
+	font-size:12px;
+	line-height:22px;
+}
+.form-control {
+	font-size:12px;
+	
+}
+.form-control:focus {
+	box-shadow:none;
+	border-color:#ced4da;
+}
+.input-group {
+	margin-bottom:3px;
+}
+.input-group-text {
+	font-size:12px;
+	width:100px;
+}
+#box {
+	width: 300px;
+	margin:200px auto 0 auto;
+}
+.title {
+	color:#ffffff;
+	border-bottom:2px solid #ffffff;
+    line-height:46px;
+}

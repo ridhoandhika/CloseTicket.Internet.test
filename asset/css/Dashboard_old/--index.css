@@ -1,0 +1,43 @@
+
+
+
+.table>tbody>tr>td.rotate-date {
+	vertical-align: top;
+	margin:0 auto;
+}
+.rotate-out {
+	position: relative;
+	margin:0 auto;
+	width: 40px;
+}
+.rotate-in {
+	transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    white-space: nowrap;
+    overflow: visible;
+	line-height: 40px;
+	font-size: 20px;
+}
+.dropdown-menu {
+	min-width: 300px;
+}
+.chart-box {
+	padding: 15px 0;
+}
+.chart-title {
+	text-align: center;
+	font-weight: bold;
+	line-height: 30px;
+}
+.canvas-holder canvas {
+	width: 100%;
+}
+.column-datetime {
+	width: 120px;
+}
+#logo {
+	display:none;
+}
+.modal-lg, .modal-content {
+    max-width: 900px;
+}

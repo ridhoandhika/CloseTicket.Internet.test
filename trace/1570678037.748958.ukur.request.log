@@ -1,0 +1,13 @@
+
+							<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://ibooster.telkom.co.id/api/soap.php">
+								<soapenv:Header/>
+								<soapenv:Body>
+									<soap:ukur soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+										<input xsi:type="ibo:ukur_in" xmlns:ibo="http://10.62.165.36/soap/iBooster">
+											<nd xsi:type="xsd:string">152424902901</nd>
+											<realm xsi:type="xsd:string">telkom.net</realm>
+										</input>
+									</soap:ukur>
+								</soapenv:Body>
+							</soapenv:Envelope>
+						
